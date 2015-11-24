@@ -1,18 +1,16 @@
 module Apitome
   class Configuration
-    cattr_accessor *[
-      # :mount_at,
-      # :root,
-      # :doc_path,
-      # :title,
-      # :layout,
-      # :code_theme,
-      # :css_override,
-      # :js_override,
-      # :readme,
-      # :single_page,
-      # :url_formatter
-    ]
+      cattr_accessor :mount_at
+      cattr_accessor :root
+      cattr_accessor :doc_path
+      cattr_accessor :title
+      cattr_accessor :layout
+      cattr_accessor :code_theme
+      cattr_accessor :css_override
+      cattr_accessor :js_override
+      cattr_accessor :readme
+      cattr_accessor :single_page
+      cattr_accessor :url_formatter
 
     @@mount_at     = "/api/docs"
     @@root         = nil # will default to Rails.root if left unset
