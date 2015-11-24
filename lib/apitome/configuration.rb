@@ -1,17 +1,17 @@
 module Apitome
   class Configuration
     cattr_accessor *[
-      :mount_at,
-      :root,
-      :doc_path,
-      :title,
-      :layout,
-      :code_theme,
-      :css_override,
-      :js_override,
-      :readme,
-      :single_page,
-      :url_formatter
+      # :mount_at,
+      # :root,
+      # :doc_path,
+      # :title,
+      # :layout,
+      # :code_theme,
+      # :css_override,
+      # :js_override,
+      # :readme,
+      # :single_page,
+      # :url_formatter
     ]
 
     @@mount_at     = "/api/docs"
