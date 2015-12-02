@@ -39,6 +39,11 @@ pre code {
   text-decoration: none;
 }
 
+.sidebar {
+  overflow: scroll;
+  max-height: 75%;
+}
+
 .sidebar.affix {
   position: static;
 }
